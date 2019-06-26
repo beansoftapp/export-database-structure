@@ -1,5 +1,7 @@
 package com.msw.java;
 
+import java.awt.*;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -113,6 +115,7 @@ public class App
 		try {
 			out = new FileOutputStream(outFile);
 			log.info("生成文件结束");
+			Desktop.getDesktop().browse(new File(outFile).toURI());
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 			log.info("生成文件失败");

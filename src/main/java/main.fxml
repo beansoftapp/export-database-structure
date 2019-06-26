@@ -6,7 +6,7 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<Pane fx:id="main" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.101" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.msw.java.MainController">
+<Pane fx:id="main" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.msw.java.MainController">
    <children>
       <Label layoutX="250.0" layoutY="155.0" text="用户名">
          <font>
@@ -64,12 +64,12 @@
             <Font size="14.0" />
          </font>
       </Label>
-      <TextField fx:id="host" layoutX="321.0" layoutY="31.0">
+      <TextField fx:id="host" layoutX="321.0" layoutY="31.0" text="localhost">
          <font>
             <Font size="14.0" />
          </font>
       </TextField>
-      <TextField fx:id="port" layoutX="321.0" layoutY="69.0">
+      <TextField fx:id="port" layoutX="321.0" layoutY="69.0" text="3306">
          <font>
             <Font size="14.0" />
          </font>

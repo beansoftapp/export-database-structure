@@ -221,10 +221,10 @@ public class MainController implements Initializable{
     		Alerts(false,"请输入数据库用户名！");
     		return false;
     	}
-    	if(!map.containsKey("-p")||map.get("-p")==null||map.get("-p").equals("")){
-    		Alerts(false,"请输入数据库密码！");
-    		return false;
-    	}
+//    	if(!map.containsKey("-p")||map.get("-p")==null||map.get("-p").equals("")){
+//    		Alerts(false,"请输入数据库密码！");
+//    		return false;
+//    	}
     	if(!map.containsKey("-d")||map.get("-d")==null||map.get("-d").equals("")){
     		Alerts(false,"请输入保存文件的目录！");
     		return false;
